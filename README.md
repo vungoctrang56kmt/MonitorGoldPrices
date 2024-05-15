@@ -1,7 +1,6 @@
 #author name: Vũ Ngọc Trang
 #class: K56KMT.01
 #student code: K205480106035
-#instructor: Teacher Do Duy Cop
 ---Đề tài: Xây dựng website theo dõi giá vàng----
 - Giống như bài của thầy đã hướng dẫn. em sẽ làm về bài project riêng của mình về đề Tài Theo Dõi Giá Vàng
   tóm tắt:  em tạo code py fastAPI để lấy dữ liệu giá vàng bên ngoài -> dùng node-red để lưu về bảng db mà mình đã tạo-> sau đó tạo Sp_db để lấy dữ liệu ra-> Sau khi gọi api thì sử dụng http request lấy thông tin và đưa vào endpoint -> Cuối cùng dùng js để lấy dữ liệu và vẽ biểu đồ.
