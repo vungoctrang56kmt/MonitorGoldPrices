@@ -12,8 +12,8 @@
 -> Dữ liệu bao gồm thông tin về thời gian và giá vàng.
   
 2. Mô tả nguồn dữ liệu:
-Sử dụng Web Scraping hoặc lấy dữ liệu qua API của các trang web chuyên về giá vàng.
-Dữ liệu bao gồm thông tin về giá vàng và thời gian cập nhật.
+- Sử dụng Web Scraping hoặc lấy dữ liệu qua API của các trang web chuyên về giá vàng.
+- Dữ liệu bao gồm thông tin về giá vàng và thời gian cập nhật.
 
 3. Node-RED:
 - Xây dựng một chu trình trong Node-RED để tự động gọi Stored Procedure SP_SaveGoldPrice để lưu giá vàng vào cơ sở dữ liệu.
