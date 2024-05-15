@@ -20,6 +20,6 @@
 - Node-RED sẽ gọi API Python (hoặc một dịch vụ khác) để lấy dữ liệu giá vàng và thời gian cập nhật. Sau đó, dữ liệu này sẽ được truyền sang SP_SaveGoldPrice để lưu trữ.
   
 4. Web:
-Xây dựng một ứng dụng web để hiển thị dữ liệu từ cơ sở dữ liệu.
-Hiển thị danh sách giá vàng và thời gian cập nhật hoặc biểu đồ các giá vàng theo thời gian.
-Sử dụng các công nghệ như HTML, CSS, JavaScript để tạo giao diện web.
+- Xây dựng một ứng dụng web để hiển thị dữ liệu từ cơ sở dữ liệu.
+- Hiển thị danh sách giá vàng và thời gian cập nhật hoặc biểu đồ các giá vàng theo thời gian.
+- Sử dụng các công nghệ như HTML, CSS, JavaScript để tạo giao diện web.
