@@ -1,4 +1,10 @@
-- Giống như bài của thầy. em sẽ làm về bài project riêng của mình về đề Tài Theo Dõi Giá Vàng
+#author name: Vũ Ngọc Trang
+#class: K56KMT.01
+#student code: K205480106035
+#instructor: Teacher Do Duy Cop
+---Đề tài: Xây dựng website theo dõi giá vàng----
+- Giống như bài của thầy đã hướng dẫn. em sẽ làm về bài project riêng của mình về đề Tài Theo Dõi Giá Vàng
+  tóm tắt:  em tạo code py fastAPI để lấy dữ liệu giá vàng bên ngoài -> dùng node-red để lưu về bảng db mà mình đã tạo-> sau đó tạo Sp_db để lấy dữ liệu ra-> Sau khi gọi api thì sử dụng http request lấy thông tin và đưa vào endpoint -> Cuối cùng dùng js để lấy dữ liệu và vẽ biểu đồ.
 - Dưới đây là dự định và các bước thực hiện.
 1. Thu thập Dữ liệu: Sử dụng Node-RED để kết nối với một nguồn dữ liệu về giá vàng, như API từ trang web tài chính hoặc các dịch vụ cung cấp dữ liệu tài chính. Thiết lập luồng làm việc trong Node-RED để lấy dữ liệu giá vàng theo định kỳ (ví dụ: mỗi giờ) từ nguồn dữ liệu và lưu vào cơ sở dữ liệu SQL.
 2. Lưu trữ Dữ liệu: Sử dụng cơ sở dữ liệu SQL (ví dụ: MySQL, PostgreSQL) để lưu trữ dữ liệu giá vàng. Tạo bảng để lưu trữ thông tin như thời gian, giá vàng, và các thuộc tính khác.
