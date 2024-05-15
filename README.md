@@ -6,10 +6,8 @@
 1. Cơ sở dữ liệu:
 
 - Bảng: GoldPrice: Lưu thông tin về giá vàng, bao gồm ID (PK), thời gian, giá vàng.
-- Stored Procedures (SP_):
-- SP_GetLatestGoldPrices: Lấy thông tin về giá vàng mới nhất.
-- SP_SaveGoldPrice: Lưu giá vàng mới vào cơ sở dữ liệu.
--> Dữ liệu bao gồm thông tin về thời gian và giá vàng.
+- Stored Procedures (SP_): SP_GetLatestGoldPrices: (Lấy thông tin về giá vàng mới nhất) và SP_SaveGoldPrice: (Lưu giá vàng mới vào cơ sở dữ liệu).
+- Dữ liệu bao gồm thông tin về thời gian và giá vàng.
   
 2. Mô tả nguồn dữ liệu:
 - Sử dụng Web Scraping hoặc lấy dữ liệu qua API của các trang web chuyên về giá vàng.
