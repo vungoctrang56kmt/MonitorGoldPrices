@@ -1,0 +1,26 @@
+[
+    {
+        "id": "e18e5791.9a10e",
+        "type": "http request",
+        "z": "2c493de3936be8fc",
+        "name": "Call Gold API",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://127.0.0.1:8010/gold_price",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 430,
+        "y": 160,
+        "wires": [
+            [
+                "7744d31020568e96"
+            ]
+        ]
+    }
+]
