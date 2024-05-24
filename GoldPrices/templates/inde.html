@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Prices</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Gold Prices</h1>
+        <table class="table table-bordered mt-3" id="gold-prices-table">
+            <thead>
+                <tr>
+                    <th>Timestamp</th>
+                    <th>Metal</th>
+                    <th>Currency</th>
+                    <th>Exchange</th>
+                    <th>Symbol</th>
+                    <th>Previous Close Price</th>
+                    <th>Open Price</th>
+                    <th>Low Price</th>
+                    <th>High Price</th>
+                    <th>Open Time</th>
+                    <th>Price</th>
+                    <th>Change</th>
+                    <th>Change Percent</th>
+                    <th>Ask</th>
+                    <th>Bid</th>
+                    <th>Price Gram 24k</th>
+                    <th>Price Gram 22k</th>
+                    <th>Price Gram 21k</th>
+                    <th>Price Gram 20k</th>
+                    <th>Price Gram 18k</th>
+                    <th>Price Gram 16k</th>
+                    <th>Price Gram 14k</th>
+                    <th>Price Gram 10k</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script>
+        function fetchData() {
+            $.getJSON("/data", function(data) {
+                var tableBody = $("#gold-prices-table tbody");
+                tableBody.empty();
+                data.forEach(function(row) {
+                    var tr = $("<tr>");
+                    Object.values(row).forEach(function(value) {
+                        tr.append($("<td>").text(value));
+                    });
+                    tableBody.append(tr);
+                });
+            });
+        }
+
+        $(document).ready(function() {
+            fetchData();
+            setInterval(fetchData, 60000); // Tự động cập nhật mỗi 60 giây
+        });
+    </script>
+</body>
+</html>
