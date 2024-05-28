@@ -23,4 +23,5 @@
 - Xây dựng một ứng dụng web để hiển thị dữ liệu từ cơ sở dữ liệu.
 - Hiển thị danh sách giá vàng và thời gian cập nhật hoặc biểu đồ các giá vàng theo thời gian.
 - Sử dụng các công nghệ như HTML, CSS, JavaScript để tạo giao diện web.
+  Sơ đồ hoạt động
 ![image](https://github.com/vungoctrang56kmt/MonitorGoldPrices/assets/132650576/96734db7-f012-4084-87d3-2bc0cea29a70)
